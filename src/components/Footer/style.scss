@@ -1,0 +1,18 @@
+.iFooter {
+    display: flex;
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBF6FF;
+
+    p {
+        font-size: 1rem;
+        color: #7b7b7b;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .iFooter {
+        padding: 4rem 0 3rem;
+    }
+}

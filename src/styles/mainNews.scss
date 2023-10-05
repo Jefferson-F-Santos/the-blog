@@ -1,0 +1,27 @@
+@import 'variables';
+
+.mainNews {
+    gap: 1.8rem;
+    display: grid;
+    background-color: $magnolia;
+    padding: 60px $paddingElements 0;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 1024px) {
+    .mainNews {
+        padding: 60px 4rem 0;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .mainNews {
+        padding: 60px 3rem 0;
+        grid-template-columns: repeat(1, 1fr);
+
+        .card + .card {
+            margin-top: 1.5rem;
+        }
+    }
+}

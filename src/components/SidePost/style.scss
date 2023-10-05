@@ -1,0 +1,49 @@
+@import '../../styles/variables';
+
+.sidePost {
+    display: flex;
+    background-color: $magnolia;
+    justify-content: space-between;
+    padding: 60px $paddingElements 0;
+
+    .card {
+        width: 50%;
+    }
+
+    hr {
+        width: 100%;
+        height: 1px;
+        border: none;
+        margin: 1.5rem 0;
+        background: $palePurple;
+    }
+
+    .contentSimplePost {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .sidePost {
+        .contentSimplePost {
+            width: 45%;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .sidePost {
+        flex-flow: column;
+        padding: 60px 3rem 0;
+        justify-content: initial;
+
+        .card {
+            width: 100%;
+        }
+
+        .contentSimplePost {
+            width: 100%;
+            margin-top: 3rem;
+        }
+    }
+}
