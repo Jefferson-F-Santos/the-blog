@@ -12,8 +12,21 @@ As dependências do projeto estão listadas no arquivo package.json. Utilize o s
 
 yarn install
 
+ou
+
+yarn
+
 Principais dependências:
 
     react: Biblioteca principal do React.
     react-dom: Renderiza componentes React no navegador.
     react-scripts: Conjunto de scripts e configurações padrão do Create React App.
+
+
+## Executando a Aplicação
+
+Para iniciar o servidor de desenvolvimento, utilize o seguinte comando:
+
+yarn start
+
+Isso iniciará a aplicação no modo de desenvolvimento. Abra http://localhost:3000 no navegador para visualizar a aplicação.
