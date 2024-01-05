@@ -3,7 +3,7 @@
 
 ## Visão Geral
 
-Este documento fornece uma visão geral do projeto React JS, criado utilizando o gerenciador de pacotes Yarn. Descreve a estrutura, as dependências e os principais componentes da aplicação, que tem como objetivo oferecer uma experiência web responsiva e interativa através da biblioteca React.
+The Blog é um projeto simples desenvolvido em React como parte de um desafio proposto pela Rocketseat para fins educativos. Este projeto visa proporcionar uma experiência prática e interativa para aqueles que estão aprendendo React, permitindo a criação e visualização de postagens de blog.
 
 
 ## Dependências
