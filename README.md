@@ -10,11 +10,15 @@ The Blog é um projeto simples desenvolvido em React como parte de um desafio pr
 
 As dependências do projeto estão listadas no arquivo package.json. Utilize o seguinte comando para instalar as dependências com o Yarn:
 
-```yarn install```
+```bash
+yarn install
+```
 
 ou
 
-```yarn```
+```bash
+yarn
+```
 
 Principais dependências:
 
@@ -27,6 +31,8 @@ Principais dependências:
 
 Para iniciar o servidor de desenvolvimento, utilize o seguinte comando:
 
-```yarn start```
+```bash
+yarn start
+```
 
 Isso iniciará a aplicação no modo de desenvolvimento. Abra http://localhost:3000 no navegador para visualizar a aplicação.
