@@ -27,7 +27,7 @@ export const dataPosts = [
     },
     {
         id: 4,
-        data: 'Abriu 17, 2003',
+        data: 'Abril 17, 2003',
         image: post1,
         title: '10 dicas para conseguir a vaga desejada em React JS',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique.',
